@@ -18,6 +18,10 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     NSLog(@"caobaikun-1");
+    NSLog(@"caobaikun");
+    NSLog(@"cbk-branch");
+    NSLog(@"test-reset");
+    NSLog(@"test3");
 }
 
 - (void)didReceiveMemoryWarning {
