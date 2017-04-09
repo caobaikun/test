@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2AC283C548A1B38D969CBE16 /* Pods_TurnaroundsAnimation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F0780B4BDE829A1B681B58F /* Pods_TurnaroundsAnimation.framework */; };
+		85C7206D1CEAF631001F3BFB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 85C7206C1CEAF631001F3BFB /* main.m */; };
+		85C720701CEAF631001F3BFB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 85C7206F1CEAF631001F3BFB /* AppDelegate.m */; };
+		85C720731CEAF631001F3BFB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85C720721CEAF631001F3BFB /* ViewController.m */; };
+		85C720761CEAF631001F3BFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85C720741CEAF631001F3BFB /* Main.storyboard */; };
+		85C720781CEAF631001F3BFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85C720771CEAF631001F3BFB /* Assets.xcassets */; };
+		85C7207B1CEAF631001F3BFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85C720791CEAF631001F3BFB /* LaunchScreen.storyboard */; };
+		85C720861CEAF631001F3BFB /* TurnaroundsAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 85C720851CEAF631001F3BFB /* TurnaroundsAnimationTests.m */; };
+		85C720911CEAF631001F3BFB /* TurnaroundsAnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 85C720901CEAF631001F3BFB /* TurnaroundsAnimationUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		85C720821CEAF631001F3BFB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 85C720601CEAF631001F3BFB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 85C720671CEAF631001F3BFB;
+			remoteInfo = TurnaroundsAnimation;
+		};
+		85C7208D1CEAF631001F3BFB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 85C720601CEAF631001F3BFB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 85C720671CEAF631001F3BFB;
+			remoteInfo = TurnaroundsAnimation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4F0780B4BDE829A1B681B58F /* Pods_TurnaroundsAnimation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TurnaroundsAnimation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		85C720681CEAF631001F3BFB /* TurnaroundsAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TurnaroundsAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		85C7206C1CEAF631001F3BFB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		85C7206E1CEAF631001F3BFB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		85C7206F1CEAF631001F3BFB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		85C720711CEAF631001F3BFB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		85C720721CEAF631001F3BFB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		85C720751CEAF631001F3BFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		85C720771CEAF631001F3BFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		85C7207A1CEAF631001F3BFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		85C7207C1CEAF631001F3BFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85C720811CEAF631001F3BFB /* TurnaroundsAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TurnaroundsAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		85C720851CEAF631001F3BFB /* TurnaroundsAnimationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TurnaroundsAnimationTests.m; sourceTree = "<group>"; };
+		85C720871CEAF631001F3BFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85C7208C1CEAF631001F3BFB /* TurnaroundsAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TurnaroundsAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		85C720901CEAF631001F3BFB /* TurnaroundsAnimationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TurnaroundsAnimationUITests.m; sourceTree = "<group>"; };
+		85C720921CEAF631001F3BFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9556881A21379D556C7F8A6A /* Pods-TurnaroundsAnimation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TurnaroundsAnimation.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TurnaroundsAnimation/Pods-TurnaroundsAnimation.debug.xcconfig"; sourceTree = "<group>"; };
+		B59750108EB27DC4692169F3 /* Pods-TurnaroundsAnimation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TurnaroundsAnimation.release.xcconfig"; path = "Pods/Target Support Files/Pods-TurnaroundsAnimation/Pods-TurnaroundsAnimation.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		85C720651CEAF631001F3BFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AC283C548A1B38D969CBE16 /* Pods_TurnaroundsAnimation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85C7207E1CEAF631001F3BFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85C720891CEAF631001F3BFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		431CD902043DD9690508C79E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4F0780B4BDE829A1B681B58F /* Pods_TurnaroundsAnimation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		52BB0B730564BEE6369C758D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9556881A21379D556C7F8A6A /* Pods-TurnaroundsAnimation.debug.xcconfig */,
+				B59750108EB27DC4692169F3 /* Pods-TurnaroundsAnimation.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		85C7205F1CEAF631001F3BFB = {
+			isa = PBXGroup;
+			children = (
+				85C7206A1CEAF631001F3BFB /* TurnaroundsAnimation */,
+				85C720841CEAF631001F3BFB /* TurnaroundsAnimationTests */,
+				85C7208F1CEAF631001F3BFB /* TurnaroundsAnimationUITests */,
+				85C720691CEAF631001F3BFB /* Products */,
+				52BB0B730564BEE6369C758D /* Pods */,
+				431CD902043DD9690508C79E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		85C720691CEAF631001F3BFB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				85C720681CEAF631001F3BFB /* TurnaroundsAnimation.app */,
+				85C720811CEAF631001F3BFB /* TurnaroundsAnimationTests.xctest */,
+				85C7208C1CEAF631001F3BFB /* TurnaroundsAnimationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		85C7206A1CEAF631001F3BFB /* TurnaroundsAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				85C7206E1CEAF631001F3BFB /* AppDelegate.h */,
+				85C7206F1CEAF631001F3BFB /* AppDelegate.m */,
+				85C720711CEAF631001F3BFB /* ViewController.h */,
+				85C720721CEAF631001F3BFB /* ViewController.m */,
+				85C720741CEAF631001F3BFB /* Main.storyboard */,
+				85C720771CEAF631001F3BFB /* Assets.xcassets */,
+				85C720791CEAF631001F3BFB /* LaunchScreen.storyboard */,
+				85C7207C1CEAF631001F3BFB /* Info.plist */,
+				85C7206B1CEAF631001F3BFB /* Supporting Files */,
+			);
+			path = TurnaroundsAnimation;
+			sourceTree = "<group>";
+		};
+		85C7206B1CEAF631001F3BFB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				85C7206C1CEAF631001F3BFB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		85C720841CEAF631001F3BFB /* TurnaroundsAnimationTests */ = {
+			isa = PBXGroup;
+			children = (
+				85C720851CEAF631001F3BFB /* TurnaroundsAnimationTests.m */,
+				85C720871CEAF631001F3BFB /* Info.plist */,
+			);
+			path = TurnaroundsAnimationTests;
+			sourceTree = "<group>";
+		};
+		85C7208F1CEAF631001F3BFB /* TurnaroundsAnimationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				85C720901CEAF631001F3BFB /* TurnaroundsAnimationUITests.m */,
+				85C720921CEAF631001F3BFB /* Info.plist */,
+			);
+			path = TurnaroundsAnimationUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		85C720671CEAF631001F3BFB /* TurnaroundsAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85C720951CEAF631001F3BFB /* Build configuration list for PBXNativeTarget "TurnaroundsAnimation" */;
+			buildPhases = (
+				B8AD98EA4FFAD63965EE5E93 /* 📦 Check Pods Manifest.lock */,
+				85C720641CEAF631001F3BFB /* Sources */,
+				85C720651CEAF631001F3BFB /* Frameworks */,
+				85C720661CEAF631001F3BFB /* Resources */,
+				3EA3C89CC59DF63E92FEACB6 /* 📦 Embed Pods Frameworks */,
+				7B77356517BC1F33FD7AB3D7 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TurnaroundsAnimation;
+			productName = TurnaroundsAnimation;
+			productReference = 85C720681CEAF631001F3BFB /* TurnaroundsAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		85C720801CEAF631001F3BFB /* TurnaroundsAnimationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85C720981CEAF631001F3BFB /* Build configuration list for PBXNativeTarget "TurnaroundsAnimationTests" */;
+			buildPhases = (
+				85C7207D1CEAF631001F3BFB /* Sources */,
+				85C7207E1CEAF631001F3BFB /* Frameworks */,
+				85C7207F1CEAF631001F3BFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				85C720831CEAF631001F3BFB /* PBXTargetDependency */,
+			);
+			name = TurnaroundsAnimationTests;
+			productName = TurnaroundsAnimationTests;
+			productReference = 85C720811CEAF631001F3BFB /* TurnaroundsAnimationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		85C7208B1CEAF631001F3BFB /* TurnaroundsAnimationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85C7209B1CEAF631001F3BFB /* Build configuration list for PBXNativeTarget "TurnaroundsAnimationUITests" */;
+			buildPhases = (
+				85C720881CEAF631001F3BFB /* Sources */,
+				85C720891CEAF631001F3BFB /* Frameworks */,
+				85C7208A1CEAF631001F3BFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				85C7208E1CEAF631001F3BFB /* PBXTargetDependency */,
+			);
+			name = TurnaroundsAnimationUITests;
+			productName = TurnaroundsAnimationUITests;
+			productReference = 85C7208C1CEAF631001F3BFB /* TurnaroundsAnimationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		85C720601CEAF631001F3BFB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "曹百坤";
+				TargetAttributes = {
+					85C720671CEAF631001F3BFB = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					85C720801CEAF631001F3BFB = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 85C720671CEAF631001F3BFB;
+					};
+					85C7208B1CEAF631001F3BFB = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 85C720671CEAF631001F3BFB;
+					};
+				};
+			};
+			buildConfigurationList = 85C720631CEAF631001F3BFB /* Build configuration list for PBXProject "TurnaroundsAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 85C7205F1CEAF631001F3BFB;
+			productRefGroup = 85C720691CEAF631001F3BFB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				85C720671CEAF631001F3BFB /* TurnaroundsAnimation */,
+				85C720801CEAF631001F3BFB /* TurnaroundsAnimationTests */,
+				85C7208B1CEAF631001F3BFB /* TurnaroundsAnimationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		85C720661CEAF631001F3BFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85C7207B1CEAF631001F3BFB /* LaunchScreen.storyboard in Resources */,
+				85C720781CEAF631001F3BFB /* Assets.xcassets in Resources */,
+				85C720761CEAF631001F3BFB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85C7207F1CEAF631001F3BFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85C7208A1CEAF631001F3BFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3EA3C89CC59DF63E92FEACB6 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TurnaroundsAnimation/Pods-TurnaroundsAnimation-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B77356517BC1F33FD7AB3D7 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TurnaroundsAnimation/Pods-TurnaroundsAnimation-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B8AD98EA4FFAD63965EE5E93 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		85C720641CEAF631001F3BFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85C720731CEAF631001F3BFB /* ViewController.m in Sources */,
+				85C720701CEAF631001F3BFB /* AppDelegate.m in Sources */,
+				85C7206D1CEAF631001F3BFB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85C7207D1CEAF631001F3BFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85C720861CEAF631001F3BFB /* TurnaroundsAnimationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85C720881CEAF631001F3BFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85C720911CEAF631001F3BFB /* TurnaroundsAnimationUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		85C720831CEAF631001F3BFB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 85C720671CEAF631001F3BFB /* TurnaroundsAnimation */;
+			targetProxy = 85C720821CEAF631001F3BFB /* PBXContainerItemProxy */;
+		};
+		85C7208E1CEAF631001F3BFB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 85C720671CEAF631001F3BFB /* TurnaroundsAnimation */;
+			targetProxy = 85C7208D1CEAF631001F3BFB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		85C720741CEAF631001F3BFB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				85C720751CEAF631001F3BFB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		85C720791CEAF631001F3BFB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				85C7207A1CEAF631001F3BFB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		85C720931CEAF631001F3BFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		85C720941CEAF631001F3BFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		85C720961CEAF631001F3BFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9556881A21379D556C7F8A6A /* Pods-TurnaroundsAnimation.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TurnaroundsAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YBW.TurnaroundsAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		85C720971CEAF631001F3BFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B59750108EB27DC4692169F3 /* Pods-TurnaroundsAnimation.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TurnaroundsAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YBW.TurnaroundsAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		85C720991CEAF631001F3BFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TurnaroundsAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YBW.TurnaroundsAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TurnaroundsAnimation.app/TurnaroundsAnimation";
+			};
+			name = Debug;
+		};
+		85C7209A1CEAF631001F3BFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TurnaroundsAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YBW.TurnaroundsAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TurnaroundsAnimation.app/TurnaroundsAnimation";
+			};
+			name = Release;
+		};
+		85C7209C1CEAF631001F3BFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TurnaroundsAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YBW.TurnaroundsAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TurnaroundsAnimation;
+			};
+			name = Debug;
+		};
+		85C7209D1CEAF631001F3BFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TurnaroundsAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YBW.TurnaroundsAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TurnaroundsAnimation;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		85C720631CEAF631001F3BFB /* Build configuration list for PBXProject "TurnaroundsAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85C720931CEAF631001F3BFB /* Debug */,
+				85C720941CEAF631001F3BFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85C720951CEAF631001F3BFB /* Build configuration list for PBXNativeTarget "TurnaroundsAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85C720961CEAF631001F3BFB /* Debug */,
+				85C720971CEAF631001F3BFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85C720981CEAF631001F3BFB /* Build configuration list for PBXNativeTarget "TurnaroundsAnimationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85C720991CEAF631001F3BFB /* Debug */,
+				85C7209A1CEAF631001F3BFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85C7209B1CEAF631001F3BFB /* Build configuration list for PBXNativeTarget "TurnaroundsAnimationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85C7209C1CEAF631001F3BFB /* Debug */,
+				85C7209D1CEAF631001F3BFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 85C720601CEAF631001F3BFB /* Project object */;
+}
