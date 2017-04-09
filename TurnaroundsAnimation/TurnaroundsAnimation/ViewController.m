@@ -20,6 +20,8 @@
     NSLog(@"caobaikun");
     NSLog(@"cbk-branch");
     NSLog(@"test-reset");
+    NSLog(@"test3");
+
 }
 
 - (void)didReceiveMemoryWarning {
